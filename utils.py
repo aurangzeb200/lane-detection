@@ -1,7 +1,3 @@
-# RollNumber: BSAI23021
-# Name: Aurangzeb
-# Assignment: 04
-
 import numpy as np
 
 def combine_images(base_image, overlay, alpha=0.8, beta=1.0, gamma=1.0):

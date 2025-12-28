@@ -1,7 +1,3 @@
-# RollNumber: BSAI23021
-# Name: Aurangzeb
-# Assignment: 04
-
 import numpy as np
 
 def hough_transform(edge_image, rho_res=1, theta_res=1, threshold=10):

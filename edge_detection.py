@@ -1,7 +1,3 @@
-# RollNumber: BSAI23021
-# Name: Aurangzeb
-# Assignment: 04
-
 from canny_utils import canny_custom
 import numpy as np
 

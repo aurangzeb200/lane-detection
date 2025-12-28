@@ -1,6 +1,3 @@
-# RollNumber: BSAI23021
-# Name: Aurangzeb
-# Assignment: 04
 import numpy as np
 
 def region_of_interest(image):

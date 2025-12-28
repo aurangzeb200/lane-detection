@@ -1,7 +1,3 @@
-# RollNumber: BSAI23021
-# Name: Aurangzeb
-# Assignment: 04
-
 import numpy as np
 
 def normalize_to_u8(arr):

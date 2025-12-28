@@ -1,6 +1,3 @@
-# RollNumber: BSAI23021
-# Name: Aurangzeb
-# Assignment: 04
 import cv2
 import numpy as np
 
