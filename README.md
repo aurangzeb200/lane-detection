@@ -16,11 +16,11 @@ The system processes raw frames through several distinct stages:
 ## Mathematical Underpinnings
 
 ### 1. Gaussian Blur (Manual Convolution)
-The smoothing is performed using a kernel derived from:
+The smoothing is performed using a kernel derived from:  
 $$\huge G(x, y) = \frac{1}{2\pi\sigma^2} e^{-\frac{x^2 + y^2}{2\sigma^2}}$$
 
 ### 2. Hough Transform Line Detection
-Points in image space $(x, y)$ are transformed into the polar coordinate system:
+Points in image space $(x, y)$ are transformed into the polar coordinate system:  
 $$\huge \rho = x \cos(\theta) + y \sin(\theta)$$
 
 
@@ -73,11 +73,3 @@ python main.py --input_folder ./data/ --output_folder ./results
 ## Motive
 
 This project was developed for educational purposes to understand the "math under the hood." While libraries like OpenCV offer optimized versions of these functions (using C++), the algorithms here are implemented in Python/NumPy to demonstrate a deep understanding of the underlying theory.
-
----
-
-### Suggested Images to use:
-1.  **Color Masking:** Use an image from your `binary_rgb_files` folder. It shows the yellow/white lanes isolated.
-2.  **Hough Lines:** Use the `hough_lines_visual` output. It looks very technical and shows the individual segments detected.
-3.  **Final Overlay:** Use the `final_output`. This is the most impressive part where the green and red lanes are drawn over the original road.
-
